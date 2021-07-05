@@ -18,7 +18,7 @@ spec:
       containers:
         - name: pipelines-vote-ui
           image: >-
-            image-registry.openshift-image-registry.svc:5000/pipelines-tutorial/pipelines-vote-ui
+            image-registry.openshift-image-registry.svc:5000/pipeline-test/pipelines-vote-api
           ports:
             - containerPort: 8080
               protocol: TCP
