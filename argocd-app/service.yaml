@@ -14,9 +14,6 @@ spec:
       nodePort: 30173
   selector:
     app: pipelines-vote-ui
-  clusterIP: 172.30.87.98
-  clusterIPs:
-    - 172.30.87.98
   type: NodePort
   sessionAffinity: None
   externalTrafficPolicy: Cluster
