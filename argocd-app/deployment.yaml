@@ -1,7 +1,7 @@
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-  namespace: pipelines-tutorial
+  namespace: pipeline-test
   labels:
     app: pipelines-vote-ui
 spec:
