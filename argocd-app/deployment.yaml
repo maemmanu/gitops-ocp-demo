@@ -1,4 +1,4 @@
-Kind: DeploymentConfig
+kind: DeploymentConfig
 apiVersion: apps.openshift.io/v1
 metadata:
   name: echo
