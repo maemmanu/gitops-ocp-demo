@@ -6,7 +6,7 @@ metadata:
   labels:
     app: pipelines-vote-ui
 spec:
-  host: pipelines-vote-ui-pipeline-test.apps.cluster-94bf.sandbox1859.opentlc.com
+  host: pipelines-vote-ui-pipeline-test.apps.cluster-ae1a.sandbox216.opentlc.com
   to:
     kind: Service
     name: pipelines-vote-ui
