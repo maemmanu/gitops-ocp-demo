@@ -1,8 +1,7 @@
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-  name: pipelines-vote-ui
-  namespace: pipeline-test
+  namespace: pipelines-tutorial
   labels:
     app: pipelines-vote-ui
 spec:
@@ -12,13 +11,14 @@ spec:
       app: pipelines-vote-ui
   template:
     metadata:
+      creationTimestamp: null
       labels:
         app: pipelines-vote-ui
     spec:
       containers:
         - name: pipelines-vote-ui
           image: >-
-            image-registry.openshift-image-registry.svc:5000/pipeline-test/pipelines-vote-api
+            image-registry.openshift-image-registry.svc:5000/pipeline-test/pipelines-vote-ui
           ports:
             - containerPort: 8080
               protocol: TCP
